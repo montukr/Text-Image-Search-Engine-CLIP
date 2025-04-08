@@ -1,0 +1,6 @@
+open-clip-torch
+streamlit
+chromadb==0.5.0 #Install first https://github.com/chroma-core/chroma/issues/189#issuecomment-1454418844 
+pillow
+numpy==1.26.4 #NumPy 2.0 has issue in ChromaDB so downgrade NumPy
+tqdm
